@@ -1,9 +1,12 @@
 steps:
   - name: 'python'
-    args: ['python3', 'hello.py']
-options:
-  logging: CLOUD_LOGGING_ONLY
 env:
   - 'PYTHONUNBUFFERED=1'
+
+args: ['python3', 'hello.py']
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+
 
 
